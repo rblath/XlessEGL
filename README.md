@@ -40,3 +40,8 @@ However, compilation on ubuntu was unsuccessful so far.
 Other hints
 -----------
 (libGL may need a symlink in /usr/lib/x86_64-linux-gnu/: ln -s libGL.so.1.6.0 libGL.so)
+
+
+Links
+-----
+Original [eglkms.c](https://chromium.googlesource.com/chromiumos/platform/drm-tests/+/37c79ca70c79c72b34fc4659c57a80e6c41627b0/src/eglkms.c) from chromium project
