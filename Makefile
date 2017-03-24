@@ -1,4 +1,4 @@
-INC = -I/usr/include/drm
+INC = -I/usr/include/libdrm
 CPPFLAGS = -Wall -msse -msse2 -msse3 -Wextra -march=native -pedantic -O2
 LIBDIR = 
 LIB = -lEGL -lGL -ldrm -lgbm
