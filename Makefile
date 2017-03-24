@@ -6,6 +6,9 @@ LDFLAGS = $(LIBDIR) $(LIB)
 
 all: eglkms egltexkms eglbench
 
+clean:
+	rm eglkms egltexkms eglbench
+
 eglkms: eglkms.c
 	$(CC) $(CFLAGS) $(INC) $(LDFLAGS) -o $@ $<
 

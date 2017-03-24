@@ -10,18 +10,26 @@ Run from Virtual Terminal, this examples won't start under X11.
 Compile with: 
    make
 
-Example 1: eglkms
+Examples
 ========
+- eglkms: A bouncing red box.
+- egltexkms: A bouncing textured box.
+- eglbench: Benchmark for glDrawPixels, glTexSubImage2D, GL_ARB_pixel_buffer_object drawing to screen
 
-A bouncing red box.
+Dependencies (Debian 8)
+=======================
+- gcc/g++
+- make
+- opengl
+- libegl1-mesa
+- libegl1-mesa-dev
+- libegl1-mesa-drivers
+- libgbm-dev
+- libgbm1
+- mesa-common-dev
+- libdrm-dev
+- libgl1-mesa
+- libgl1-mesa-glx
+- libgl1-mesa-swx11
 
-
-Example 2: egltexkms
-========
-
-A bouncing textured box.
-
-Example 3: eglbench
-========
-
-Benchmark for glDrawPixels, glTexSubImage2D, GL_ARB_pixel_buffer_object drawing to screen
+libGL needs an additional symlink in /usr/lib/x86_64-linux-gnu/: ln -s libGL.so.1.6.0 libGL.so
