@@ -18,9 +18,7 @@ Examples
 
 Dependencies (Debian 8)
 -----------------------
-- gcc/g++
-- make
-- opengl
+- gcc/g++/make
 - libegl1-mesa
 - libegl1-mesa-dev
 - libegl1-mesa-drivers
@@ -29,7 +27,7 @@ Dependencies (Debian 8)
 - mesa-common-dev
 - libdrm-dev
 - libgl1-mesa
+- libgl1-mesa-dev
 - libgl1-mesa-glx
-- libgl1-mesa-swx11
 
 libGL needs an additional symlink in /usr/lib/x86_64-linux-gnu/: ln -s libGL.so.1.6.0 libGL.so
