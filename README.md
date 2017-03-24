@@ -11,13 +11,13 @@ Compile with:
    make
 
 Examples
-========
+--------
 - eglkms: A bouncing red box.
 - egltexkms: A bouncing textured box.
 - eglbench: Benchmark for glDrawPixels, glTexSubImage2D, GL_ARB_pixel_buffer_object drawing to screen
 
 Dependencies (Debian 8)
-=======================
+-----------------------
 - gcc/g++
 - make
 - opengl
