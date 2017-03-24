@@ -30,4 +30,13 @@ Dependencies (Debian 8)
 - libgl1-mesa-dev
 - libgl1-mesa-glx
 
-libGL needs an additional symlink in /usr/lib/x86_64-linux-gnu/: ln -s libGL.so.1.6.0 libGL.so
+Dependencies (Ubuntu 16.04.2)
+-----------------------------
+- same as Debian 8
+- change -I/usr/include/libdrm to -I/usr/include/drm in Makefile
+
+However, compilation on ubuntu was unsuccessful so far.
+
+Other hints
+-----------
+(libGL may need a symlink in /usr/lib/x86_64-linux-gnu/: ln -s libGL.so.1.6.0 libGL.so)
